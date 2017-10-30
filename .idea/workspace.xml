@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdeb485c-8f3f-4050-b8eb-20920799591c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grid-system/grid-system-advanced-reset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grid-system/style2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grid-system/grid-system-push-pull.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grid-system/grid-system-advanced-reset.html" afterPath="$PROJECT_DIR$/grid-system/grid-system-advanced-reset.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid-system-advanced-reset.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grid-system-advanced-reset.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grid-system/grid-system-advanced-reset.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="704">
-              <caret line="66" column="18" lean-forward="false" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+              <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid-system-push-pull.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grid-system/grid-system-push-pull.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -100,6 +110,7 @@
         <option value="$PROJECT_DIR$/grid-system/grid-system-advanced-offset.html" />
         <option value="$PROJECT_DIR$/grid-system/style2.css" />
         <option value="$PROJECT_DIR$/grid-system/grid-system-advanced-reset.html" />
+        <option value="$PROJECT_DIR$/grid-system/grid-system-push-pull.html" />
       </list>
     </option>
   </component>
@@ -196,12 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509354013046</updated>
-      <workItem from="1509354014164" duration="6568000" />
+      <workItem from="1509354014164" duration="7811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6568000" />
+    <option name="totallyTimeSpent" value="7811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -279,7 +290,15 @@
     <entry file="file://$PROJECT_DIR$/grid-system/grid-system-advanced-reset.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
-          <caret line="66" column="18" lean-forward="false" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid-system/grid-system-push-pull.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
           <folding />
         </state>
       </provider>
