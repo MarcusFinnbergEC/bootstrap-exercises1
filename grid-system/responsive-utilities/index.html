@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <title>responsive-utilities</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 text-center">
+            <h1 class="hidden-xs">
+               Header Column 1 (for bigger devices)
+            </h1>
+            <h3 class="visible-xs">
+                Header Column 1 (for xs devices)
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis deleniti doloribus facilis fugiat in minima natus numquam odio officiis omnis praesentium, quidem quisquam rem repellendus voluptas voluptatum. Illo, quisquam.</p>
+        </div>
+        <div class="col-sm-6 text-center">
+            <h1 class="hidden-xs">
+                Header Column 2 (for bigger devices)
+            </h1>
+            <h3 class="visible-xs">
+                Header Column 1 (for xs devices)
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis deleniti doloribus facilis fugiat in minima natus numquam odio officiis omnis praesentium, quidem quisquam rem repellendus voluptas voluptatum. Illo, quisquam.</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 visible-xs-block bg-danger" style="height:50px; border:1px solid wheat;">
+
+        </div>
+        <div style="height:50px; border:1px solid wheat;" class="col-sm-6 visible-sm-block bg-info">
+
+        </div>
+        <div style="height:50px; border:1px solid wheat;" class="col-sm-6 visible-sm-block bg-info">
+
+        </div>
+        <div style="height:50px; border:1px solid wheat;" class="col-md-4 visible-md-block bg-success">
+
+        </div>
+        <div style="height:50px; border:1px solid wheat;" class="col-md-4 visible-md-block bg-success">
+
+        </div>
+        <div style="height:50px; border:1px solid wheat;" class="col-md-4 visible-md-block bg-success">
+
+        </div>
+        <div style="height:50px; border:1px solid wheat;" class="col-lg-3 visible-lg-block bg-warning">
+
+        </div>
+        <div style="height:50px; border:1px solid wheat;" class="col-lg-3 visible-lg-block bg-warning">
+
+        </div>
+        <div style="height:50px; border:1px solid wheat;" class="col-lg-3 visible-lg-block bg-warning">
+
+        </div>
+        <div style="height:50px; border:1px solid wheat;" class="col-lg-3 visible-lg-block bg-warning">
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 bg-info text-center">
+            <h2 class="text-uppercase visible-lg">lg view</h2>
+            <h2 class="text-uppercase visible-md">md view</h2>
+            <h2 class="text-uppercase visible-sm">sm view</h2>
+            <h2 class="text-uppercase visible-xs">xs view</h2>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row hidden-print">
+        <div class="col-xs-12">
+        <p>Visible on desktop, mobile and tablet</p>
+        </div>
+    </div>
+    <div class="row visible-print">
+        <div class="col-xs-12">
+            <p>Visible in print <span class="text-uppercase">only</span></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
