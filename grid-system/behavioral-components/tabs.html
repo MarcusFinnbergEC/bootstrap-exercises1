@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <title>Tabs</title>
+</head>
+<body>
+<!--<ul class="nav nav-tabs">
+    <li class="active"><a href="#dogs" data-toggle="tab">Dogs</a></li>
+    <li><a href="#cats" data-toggle="tab">Cats</a></li>
+    <li><a href="#loch" data-toggle="tab">Loch Ness Monster</a></li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane active" id="dogs">
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-responsive" src="../images/dog1.jpg" alt="dog">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive" src="../images/dog2.jpg" alt="dog">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive" src="../images/dog3.jpg" alt="dog">
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane" id="cats">
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-responsive" src="../images/cat1.jpg" alt="cat">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive" src="../images/cat2.png" alt="cat">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive" src="../images/cat3.jpg" alt="cat">
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane" id="loch">
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-responsive" src="../images/loch1.png" alt="Loch Ness Monster">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive" src="../images/loch2.jpg" alt="Loch Ness">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive" src="../images/loch3.jpg" alt="Loch Ness">
+            </div>
+        </div>
+    </div>
+</div>-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>Begynnelse <span class="small">Dan Brown</span></h1>
+            <p class="lead">Robert Langdon, professor i religiös symbolik vid Harvard, anländer till Guggenheimmuseet i Bilbao för att närvara vid avslöjandet av en upptäckt som enligt inbjudan kommer att "förändra vetenskapen för alltid".</p>
+        </div>
+    </div>
+    <ul class="nav nav-tabs">
+       <li class="active"><a href="#about" data-toggle="tab">Om författaren</a></li>
+        <li><a href="#bakgrund" data-toggle="tab">Bakgrund till boken</a></li>
+        <li><a href="#recensioner" data-toggle="tab">Recensioner</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane active" id="about">
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi blanditiis commodi deserunt eius esse explicabo placeat repellendus reprehenderit sunt tempora? Doloremque dolores eaque eveniet harum numquam quo ratione, temporibus vero.</p>
+            </div>
+        </div>
+        <div class="tab-pane" id="bakgrund">
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio earum eius, error explicabo magnam maxime minus obcaecati repudiandae suscipit vitae. Delectus, nisi, placeat! Adipisci, distinctio fuga maxime odio rem suscipit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, consequuntur, cupiditate dolor dolore doloribus eius fuga minima modi nisi perspiciatis repellat voluptatem, voluptates? At consequuntur dicta illo, labore quis vel!</p>
+            </div>
+        </div>
+        <div class="tab-pane" id="recensioner">
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cumque dolores quasi rem. A atque, corporis dolor error ex hic libero non nulla obcaecati, omnis repellat, sed sint soluta vitae. Baszd meg!</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#saveModal">Save changes</button>
+        </div>
+    </div>
+    <div class="modal fade" id="saveModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                    <h4>Now you have to make a life changing decision...</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to save these changes?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Absolutely NOT!</button>
+                    <button type="button" class="btn btn-success">Of course!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
